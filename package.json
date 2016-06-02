@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server",
-    "convert": "for x in `ls -1 data`; do cat data/$x | ./node_modules/.bin/csvtojson > db/${x%.txt}.json; done",
+    "convert": "mkdir -p db; for x in `ls -1 data`; do cat data/$x | ./node_modules/.bin/csvtojson > db/${x%.txt}.json; done",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
