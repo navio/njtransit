@@ -15,6 +15,7 @@
     "json-concat": "0.0.1"
   },
   "dependencies": {
-    "json-server": "^0.8.14"
+    "json-server": "^0.8.14",
+    "transportation": "^1.2.6"
   }
 }
