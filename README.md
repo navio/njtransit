@@ -8,4 +8,4 @@ npm install
 wget https://dl.dropboxusercontent.com/u/6789197/data.zip
 
 #Server
-npm run server
+npm start
