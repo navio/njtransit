@@ -1,0 +1,19 @@
+{
+  "name": "rail_data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "convert": "for x in `ls -1 data`; do cat data/$x | ./node_modules/.bin/csvtojson > db/${x%.txt}.json; done",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "csvtojson": "^0.5.12",
+    "json-concat": "0.0.1"
+  },
+  "dependencies": {
+    "json-server": "^0.8.14"
+  }
+}
